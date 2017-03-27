@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="mediff-web:war exploded">
+    <output-path>$USER_HOME$/git/mediff/mediff-web/target/mediff-web</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="mediff-web" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$USER_HOME$/git/mediff/mediff-web/target/mediff-web/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="mediff-web/web/Web" />
+    </root>
+  </artifact>
+</component>

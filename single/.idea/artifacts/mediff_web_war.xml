@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mediff-web:war">
+    <output-path>$USER_HOME$/git/mediff/mediff-web/target</output-path>
+    <root id="archive" name="mediff-web.war">
+      <element id="artifact" artifact-name="mediff-web:war exploded" />
+    </root>
+  </artifact>
+</component>
